@@ -1,0 +1,246 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/resources/blog/[slug]",
+      "regex": "^/resources/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/resources/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/resources/case-studies/[slug]",
+      "regex": "^/resources/case\\-studies/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/resources/case\\-studies/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/careers",
+      "regex": "^/careers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/careers(?:/)?$"
+    },
+    {
+      "page": "/comparison",
+      "regex": "^/comparison(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/comparison(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/get-started",
+      "regex": "^/get\\-started(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/get\\-started(?:/)?$"
+    },
+    {
+      "page": "/guide",
+      "regex": "^/guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guide(?:/)?$"
+    },
+    {
+      "page": "/integrations",
+      "regex": "^/integrations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/integrations(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/products",
+      "regex": "^/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products(?:/)?$"
+    },
+    {
+      "page": "/products/attribution-and-reporting-dashboard",
+      "regex": "^/products/attribution\\-and\\-reporting\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/attribution\\-and\\-reporting\\-dashboard(?:/)?$"
+    },
+    {
+      "page": "/products/crm",
+      "regex": "^/products/crm(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/crm(?:/)?$"
+    },
+    {
+      "page": "/products/executive-dashboard",
+      "regex": "^/products/executive\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/executive\\-dashboard(?:/)?$"
+    },
+    {
+      "page": "/products/funnel-and-pipeline-dashboard",
+      "regex": "^/products/funnel\\-and\\-pipeline\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/funnel\\-and\\-pipeline\\-dashboard(?:/)?$"
+    },
+    {
+      "page": "/products/marketing-hub",
+      "regex": "^/products/marketing\\-hub(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/marketing\\-hub(?:/)?$"
+    },
+    {
+      "page": "/products/paid-search-dashboard",
+      "regex": "^/products/paid\\-search\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/paid\\-search\\-dashboard(?:/)?$"
+    },
+    {
+      "page": "/products/recommendations-center",
+      "regex": "^/products/recommendations\\-center(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/recommendations\\-center(?:/)?$"
+    },
+    {
+      "page": "/products/reporting-analytics",
+      "regex": "^/products/reporting\\-analytics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/reporting\\-analytics(?:/)?$"
+    },
+    {
+      "page": "/products/sales-hub",
+      "regex": "^/products/sales\\-hub(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/sales\\-hub(?:/)?$"
+    },
+    {
+      "page": "/products/seo-dashboard",
+      "regex": "^/products/seo\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/seo\\-dashboard(?:/)?$"
+    },
+    {
+      "page": "/resources",
+      "regex": "^/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources(?:/)?$"
+    },
+    {
+      "page": "/resources/blog",
+      "regex": "^/resources/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/blog(?:/)?$"
+    },
+    {
+      "page": "/resources/case-studies",
+      "regex": "^/resources/case\\-studies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/case\\-studies(?:/)?$"
+    },
+    {
+      "page": "/resources/guides-and-ebooks",
+      "regex": "^/resources/guides\\-and\\-ebooks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/guides\\-and\\-ebooks(?:/)?$"
+    },
+    {
+      "page": "/resources/webinars",
+      "regex": "^/resources/webinars(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/webinars(?:/)?$"
+    },
+    {
+      "page": "/solutions",
+      "regex": "^/solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions(?:/)?$"
+    },
+    {
+      "page": "/solutions/marketing-teams",
+      "regex": "^/solutions/marketing\\-teams(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/marketing\\-teams(?:/)?$"
+    },
+    {
+      "page": "/solutions/revenue-operations",
+      "regex": "^/solutions/revenue\\-operations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/revenue\\-operations(?:/)?$"
+    },
+    {
+      "page": "/solutions/sales-teams",
+      "regex": "^/solutions/sales\\-teams(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/sales\\-teams(?:/)?$"
+    },
+    {
+      "page": "/solutions/startups-smbs",
+      "regex": "^/solutions/startups\\-smbs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/startups\\-smbs(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
