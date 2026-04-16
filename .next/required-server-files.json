@@ -98,6 +98,7 @@
     },
     "outputFileTracingRoot": "/Users/bobsuarez/Desktop/growthforge-repo-expanded-v5",
     "experimental": {
+      "allowedDevOrigins": [],
       "nodeMiddleware": false,
       "cacheLife": {
         "default": {
